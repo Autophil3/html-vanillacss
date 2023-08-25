@@ -1,0 +1,260 @@
+/* CSS RESET START */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CSS RESET END */
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 70px;
+	background-color: #333;
+	border-bottom: 2px solid rgb(194, 194, 194);
+	z-index: 99;
+}
+.logo-hsi {
+	width: 63px;
+	height: 73px;
+	margin-left: 10px;
+	margin-right: 12px;
+	/* margin-top: 6px; */
+	line-height: 70px;
+	background-image: url(image/hsi..png);
+	background-repeat: no-repeat;
+	display: inline-block;
+}
+.logo-idn {
+	width: 70px;
+	height: 70px;
+	background-image: url(image/idn..png);
+	background-repeat: no-repeat;
+	display: inline-block 	;
+	line-height: 70px;
+}
+.top-bar .judul {
+	font-size: 35px;
+	text-align: center;
+	line-height: 70px;
+	font-weight: bold;
+	color: #fff;
+	font-family: 'Dancing Script', cursive;
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	left: 0;
+	line-height: 70px;
+	
+}
+.container {
+    width: 960px;
+	background-color: #fff;
+	border: #dbdada solid 2px;
+	border-bottom: none;
+	border-top: none;
+	margin: 80px auto;
+	position: relative;
+}
+body {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Poppins', sans-serif;
+	background-color: #eaeaea;
+	color: #333;
+	background-image: url(image/triangles_pattern.webp);
+}
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+}
+.header a {
+	text-decoration: none;
+	color: rgb(57, 58, 56);
+	
+}
+.header a:hover {
+	color: darkgoldenrod;
+	background-color: aqua;
+	border-radius: 6px;
+}
+.header {
+	padding: 20px;
+}
+.hero {
+    height : 320px;
+	background-image: url(https://plus.unsplash.com/premium_photo-1677613295050-6f4b525a0dde?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0;
+	border-top: #333 solid 5px;
+}
+.content {
+	overflow: auto;
+}
+.main h2 {
+	font-size: 24px;
+	font-weight: bold;
+}
+.main .penulis {
+    font-size: 13px;
+}
+.main .penulis a {
+	text-decoration: none;
+	color: blueviolet;
+}
+.main p {
+	margin: bottom 20px;
+	text-align: justify;
+	margin-bottom: 12px;
+	font-family: 'Poppins', sans-serif;
+	font-size: 14px;
+}
+.main a:hover {
+    color: aqua;
+	background-color: brown;
+	border-radius: 6px;
+}
+
+.arab{
+	text-align: center !important;
+	font-size: 16px !important;
+	font-family: 'Amiri', serif !important;
+	font-weight: 600;
+}
+.arti {
+	text-align: center !important;
+	font-style: italic;
+}
+.main {
+	width: 600px;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	
+}
+.footer {
+	background-color: #333;
+	padding: 20px;
+	clear: left;
+}
+.footer .footer_teks {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+.sidebar {
+	width: 300px;
+	float: right;
+	padding: 20px;
+	background-color: #5e5959;
+	height: 5500px;
+}
+
+.sidebar img {
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+	float: left;
+	margin-right: 10px;
+}
+.sidebar h1 {
+	font-size: 35px;
+	font-weight: bold;
+	margin-bottom: 37px;
+	color: #fff;
+	text-align: center;
+	font-family: 'Dancing Script', cursive;
+}
+.sidebar p{
+	font-size: 12px;
+	text-align: justify;
+	color: #fff;
+}
+.pendidikan {
+	width: 150px;
+	height: 30px;
+	background-color: rgb(234, 236, 236);
+	text-align: center;
+	line-height: 30px;
+	border-radius: 25px;
+	font-family: 'Times New Roman', Times, serif;
+	font-weight: bold;
+	font-size: 15px;
+	color: #000000;
+	padding: auto;
+	margin: auto;
+	margin-top: 30px;
+}
+.daftar {
+	color: #fff;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 15px;
+	text-align: justify;
+	
+}
+ul {
+	margin-top: 20px;
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+ul li  {
+	list-style: circle;
+	margin: auto;
+}
+.instagram {
+	width: 200px;
+	height: 200px;
+	background-image: url(image/instagram.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -99999999px;
+	position: absolute;
+	right: -13px;
+	top: -13px;
+}
